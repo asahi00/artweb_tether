@@ -8,6 +8,10 @@ html {
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
 }
 
+h1{
+  margin: 0;
+}
+
 body {
   display: flex;
   margin: 0;
@@ -57,7 +61,7 @@ body {
 
 .box1{
   justify-content: space-between;
-  margin-left: 1.2rem;
+  margin-left: 3rem;
   align-items: center;
   margin-right: auto;
 }
@@ -83,7 +87,7 @@ body {
 }
 
 .box1 p{
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 500;
   margin-top: 1.5rem;
 }
@@ -95,27 +99,26 @@ body {
 
 .box2 h1{
  font-size: 2.7rem;
- margin: 0 1.2rem;
+ margin-right: 3rem;
 }
 
-footer{
-  text-align: center;
-}
-
-@media (min-width: 768px){
+@media (max-width: 749px){
+  .movie{
+    background-image: url(../img/movie_sp.gif);
+  }
   .box1{
-    margin-left: 2.3rem;
+    margin-left: 1.5rem;
   }
   
   .box1 a{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 800;
     color: white;
-    padding: 8px 34px;
+    padding: 8px 26px;
   }
 
   .box2 h1{
-    font-size: 2.7rem;
-    margin: 0 2.3rem;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
   }
 }
